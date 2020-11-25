@@ -1,0 +1,228 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+::placeholder {
+  font-size: 13px;
+}
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  color: none !important;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: justify;
+}
+li {
+  list-style: none;
+}
+
+/* -------------------*******---------------- */
+
+/* ***** navbar start *****  */
+.navbar_style {
+  background-color: #9f98ff !important;
+}
+.navbar_style a {
+  color: white !important;
+}
+/* ***** navbar end *****  */
+
+/* ***** main header start *****  */
+.main_header {
+  width: 100%;
+  height: 450px;
+}
+.my_h1 {
+  text-align: justify;
+}
+.leftside img {
+  animation: together 5.5s linear infinite;
+}
+@keyframes together {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+.rightside h1 {
+  font-size: 3rem;
+}
+.corona_rotate img {
+  animation: corona 3s linear infinite;
+}
+@keyframes corona {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* ***** main header end *****  */
+
+/* ***** covid-19 updates start *****  */
+.covid_color {
+  color: #c2045dcc;
+}
+.my_scroll_height {
+  height: 58vh !important;
+}
+th {
+  position: sticky;
+  top: 0 !important;
+}
+tr th:nth-child(1),
+td:nth-child(1) {
+  background-color: rgba(82, 34, 138, 0.842) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(2),
+td:nth-child(2) {
+  background-color: rgba(40, 85, 136, 0.842) !important;
+  color: rgb(250, 250, 250) !important;
+}
+tr th:nth-child(3),
+td:nth-child(3) {
+  background-color: rgba(40, 170, 94, 0.829) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(4),
+td:nth-child(4) {
+  background-color: rgba(82, 34, 138, 0.842) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(5),
+td:nth-child(5) {
+  background-color: rgba(143, 36, 129, 0.842) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(6),
+td:nth-child(6) {
+  background-color: rgba(40, 170, 94, 0.829) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(7),
+td:nth-child(7) {
+  background-color: rgba(82, 34, 138, 0.842) !important;
+  color: rgb(255, 255, 255) !important;
+}
+tr th:nth-child(8),
+td:nth-child(8) {
+  background-color: rgba(143, 36, 129, 0.842) !important;
+  color: rgb(255, 255, 255) !important;
+}
+/* ***** covid-19 updates end *****  */
+
+/* ***** About section start *****  */
+.bg_color {
+  background-color: #fbfafd;
+}
+/* ***** About section end *****  */
+
+/* ***** symptoms section start *****  */
+.zoom:hover {
+  transition: 0.7;
+  transform: scale(1.5);
+}
+/* ***** symptoms section end *****  */
+
+/* ***** back to top start *****  */
+#btp {
+  /* display: none; */
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  color: #00a8ff;
+  cursor: pointer;
+  outline: none;
+}
+#btp:hover {
+  color: #606060;
+}
+/* ***** back to top end *****  */
+
+/* ***** footer start *****  */
+.footer_style {
+  background-color: #a29bfe;
+}
+.footer_style p {
+  margin-bottom: 0 !important;
+}
+/* ***** footer end *****  */
+
+/* ***** animate start *****  */
+.about2,
+.about3,
+.symp_animation,
+.against_1,
+.against_2,
+.against_3,
+.against_4,
+.against_5,
+.against_6,
+.contact_animation {
+  opacity: 0;
+}
+
+.about2.animate__animated,
+.about3.animate__animated,
+.symp_animation.animate__animated,
+.against_1.animate__animated,
+.against_2.animate__animated,
+.against_3.animate__animated,
+.against_4.animate__animated,
+.against_5.animate__animated,
+.against_6.animate__animated,
+.contact_animation.animate__animated {
+  opacity: 1 !important;
+}
+
+.symp_2,
+.against_2 {
+  animation-delay: 0.3s;
+}
+.symp_3,
+.against_3 {
+  animation-delay: 0.6s;
+}
+.symp_4 {
+  animation-delay: 0.9s;
+}
+.symp_5,
+.against_5 {
+  animation-delay: 1.2s;
+}
+.symp_6,
+.against_6 {
+  animation-delay: 1.5s;
+}
+.about3 {
+  animation-delay: 0.5s;
+}
+
+/* ***** animate end *****  */
