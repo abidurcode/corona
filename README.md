@@ -1,2 +1,2 @@
 # corona
-This is corona virus update website.
+This is a corona virus update website.
